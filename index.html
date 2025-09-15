@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy 3rd Anniversary ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Welcome Section -->
+<section id="welcome" class="section active">
+<div class="welcome-text">
+<h1>Happy 3rd Anniversary, Lalove ❤️</h1>
+<p>Forever with you feels like magic ✨</p>
+<button id="enterBtn">Enter</button>
+</div>
+</section>
+
+
+<!-- Navigation -->
+<nav>
+<ul>
+<li><button data-target="welcome">Home</button></li>
+<li><button data-target="images">Our Images</button></li>
+<li><button data-target="videos">Our Videos</button></li>
+<li><button data-target="letter">Love Letter</button></li>
+<li><button data-target="response">Her Response</button></li>
+</ul>
+</nav>
+
+
+<!-- Images Section -->
+<section id="images" class="section">
+<h2>Our Memories 📸</h2>
+<div class="slideshow">
+<button class="prev">❮</button>
+<div class="slides"></div>
+<button class="next">❯</button>
+</div>
+<input type="file" id="uploadImages" multiple accept="image/*">
+</section>
+
+
+<!-- Videos Section -->
+<section id="videos" class="section">
+<h2>Our Videos 🎬</h2>
+<div class="video-gallery">
+<video controls src="sample.mp4"></video>
+</div>
+</section>
+
+
+<!-- Love Letter Section -->
+<section id="letter" class="section">
+<h2>My Letter to You 💌</h2>
+<div id="loveLetter"></div>
+<button id="replayLetter">Replay Letter</button>
+</section>
+
+
+<!-- Her Response Section -->
+<section id="response" class="section">
+<h2>Her Response ✍️</h2>
+<textarea id="responseBox" placeholder="Write your reply here..."></textarea>
+</section>
+
+
+<!-- Countdown Section -->
+<section id="countdown" class="section">
+<h2>Countdown to Our Meetup ⏳</h2>
+<div id="countdownTimer"></div>
+</section>
+
+
+<audio id="bgMusic" loop></audio>
+
+
+<script src="script.js"></script>
+</body>
+</html>
